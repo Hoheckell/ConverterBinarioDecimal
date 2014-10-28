@@ -25,7 +25,9 @@ function BinaryToDecimal($n){
 	return $num; // e retorna
 
 }
-
+/**
+ * Conversão de Decimal para binário
+ */
 function DecimalToBinary($d){
 	
 	while($d > 1){ // Enquanto o número for maior do que 1, continuar
@@ -37,14 +39,21 @@ function DecimalToBinary($d){
 	
 }
 
+/**
+ * Altere os valores abaixo para calcualr números diferentes
+ * /
 $binary = 101101;
 $decimal = 45;
 
-$binario = DecimalToBinary($decimal);
+$binario = DecimalToBinary($decimal); //Aplicação da função DecimalToBinary
+
+//SAIDA DO RESULTADO
 echo $decimal." em binário é: " . $binario;
 echo "<br />---------------------------------------<br />";
 
-$resposta = BinaryToDecimal($binary);
+$resposta = BinaryToDecimal($binary); //Aplicação da função BinaryToDecimal
+
+//SAIDA DO RESULTADO
 echo "O número em Binário ".$resposta[2]. " em decimal é " . $resposta[0] ."<br />";
 echo "Fizemos o seguinte cálculo: " . $resposta[1] . $resposta[0];
 
