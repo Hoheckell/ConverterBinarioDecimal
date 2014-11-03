@@ -1,6 +1,7 @@
 <?php
 
 /**
+* Para este trabalho também é possível usar a função base_convert do php --> http://php.net/manual/en/function.base-convert.php
 * Conversão de binário para decimal
 */
 function BinaryToDecimal($n){
